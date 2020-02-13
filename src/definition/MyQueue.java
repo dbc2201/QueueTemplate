@@ -7,5 +7,5 @@
 
 package definition;
 
-public class MyQueue {
+public class MyQueue<E> {
 }
