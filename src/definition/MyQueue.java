@@ -39,6 +39,24 @@ public class MyQueue<E> implements QueueADT<E> {
         private E data;
         private Node<E> previous;
         private Node<E> next;
+
+        private Node(E data, Node<E> previous, Node<E> next) {
+            this.data = data;
+            this.previous = previous;
+            this.next = next;
+        }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getPrevious() {
+            return previous;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 
 }
