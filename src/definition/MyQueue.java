@@ -19,7 +19,7 @@ public class MyQueue<E> implements QueueADT<E> {
         return true;
     }
 
-    private boolean addAfter(E item) {
+    private boolean addAfter(Node<E> node, E item) {
         return true;
     }
 
