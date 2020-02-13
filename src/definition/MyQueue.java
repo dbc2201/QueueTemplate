@@ -40,6 +40,13 @@ public class MyQueue<E> implements QueueADT<E> {
         return null;
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("[");
+        sb.append("]");
+        return sb.toString();
+    }
+
     private static class Node<E> {
         private E data;
         private Node<E> previous;
