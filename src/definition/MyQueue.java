@@ -15,9 +15,29 @@ public class MyQueue<E> implements QueueADT<E> {
     private Node<E> rear = null;
     private int size = 0;
 
+    private boolean addFirst(E item) {
+        return true;
+    }
+
+    private boolean addAfter(E item) {
+        return true;
+    }
+
+    private Node<E> getNode(int index) {
+        return null;
+    }
+
+    public boolean add(int index, E item) {
+        return true;
+    }
+
     @Override
     public boolean add(E item) {
         return false;
+    }
+
+    private E removeFirst() {
+        return null;
     }
 
     @Override
