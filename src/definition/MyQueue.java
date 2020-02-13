@@ -10,6 +10,11 @@ package definition;
 import adt.QueueADT;
 
 public class MyQueue<E> implements QueueADT<E> {
+
+    private Node<E> front = null;
+    private Node<E> rear = null;
+    private int size = 0;
+
     @Override
     public boolean add(E item) {
         return false;
