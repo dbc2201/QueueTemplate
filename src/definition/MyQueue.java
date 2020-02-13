@@ -7,5 +7,31 @@
 
 package definition;
 
-public class MyQueue<E> {
+import adt.QueueADT;
+
+public class MyQueue<E> implements QueueADT<E> {
+    @Override
+    public boolean add(E item) {
+        return false;
+    }
+
+    @Override
+    public E remove() {
+        return null;
+    }
+
+    @Override
+    public E peek() {
+        return null;
+    }
+
+    @Override
+    public E poll() {
+        return null;
+    }
+
+    @Override
+    public E element() {
+        return null;
+    }
 }
